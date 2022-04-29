@@ -17,7 +17,7 @@ import galeria6 from '../../assets/galeria-6.png'
 import galeria7 from '../../assets/galeria-7.png'
 import galeria8 from '../../assets/galeria-8.png'
 
-export function SectionMain() {
+export function Main() {
     return (
         <Container>
             <Content>

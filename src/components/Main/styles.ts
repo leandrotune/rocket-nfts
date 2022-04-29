@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.main`
     max-width: 1277px;
+    height: auto;
     margin: 0 auto; 
     padding-top: 197px;
 
 `
 
 export const Content = styled.div`
-   margin: 0 auto; 
+    position: relative; ;
+    margin: 0 auto; 
 
     display: flex;
     justify-content: space-between;
@@ -70,5 +72,8 @@ export const Gallery = styled.div`
     img {
         width: 307.13px;
         height: 197.98px;
+
+        border: 1px solid #FFFFFF;
     }
 `
+

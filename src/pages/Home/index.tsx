@@ -1,13 +1,21 @@
 import { Header } from "../../components/Header";
-import { SectionMain } from "../../components/SectionMain";
+import { Main } from "../../components/Main";
+import { SectionInformation } from "../../components/SectionInformation";
 
-import { Container } from './styles'
+import GlobalStyle from '../../../styles/global'
+
+import { Container, Content } from './styles'
 
 export function Home() {
     return (
         <Container>
-            <Header />
-            <SectionMain />
+            <Content>
+                <Header />
+                <Main />
+            </Content>
+
+            <SectionInformation />
+            <GlobalStyle />
         </Container>
     )
 }

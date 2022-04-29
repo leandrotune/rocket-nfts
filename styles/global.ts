@@ -5,13 +5,13 @@ export default createGlobalStyle`
       --body-background: #0e0e0e;
       --color-logo: #ff5b50;
       --card-color: #252525;
-      --text-color: #fff;
+      --text-color: #FFFFFF;
       --subtitle-color: #5a5757;
       --black-text: #000;
       --color-input: #0D0D0D;
     }
 
-    *{
+    * {
         margin: 0;
         padding: 0;
         outline: 0;
